@@ -1,0 +1,60 @@
+// [PackageDev] target_format: plist, ext: tmLanguage
+{ "name": "LaTeX Prime",
+  "scopeName": "text.tex.latex",
+  "fileTypes": ["tex","lhs","sty"],
+  "uuid": "c89355a8-244a-45c2-9ba7-2e842e87879c",
+  "patterns": [
+    {
+        "name": "comment.latex",
+        "match": "%.*$"
+    },
+    { 
+        "name": "markup.other.math.latex",
+        "begin": "\\$\\$",
+        "end": "\\$\\$"
+    },
+    { 
+        "name": "markup.other.math.latex",
+        "begin": "\\\\\\[",
+        "end": "\\\\\\]"
+    },
+    { 
+        "name": "markup.other.math.latex",
+        "begin": "(?<!\\\\)\\$",
+        "end": "(?<!\\\\)\\$"
+    },
+    { 
+        "name": "markup.other.math.latex",
+        "begin": "\\\\\\(",
+        "end": "\\\\\\)"
+    },  
+    { 
+        "name": "meta.definition.code.latex",
+        "begin": "(\\\\begin){code}(\\s*\\n)?",
+        "end": "(\\\\end){code}",
+        "beginCaptures": {
+            "1": {"name": "support.function.latex"}
+        },
+        "endCaptures": {
+            "1": {"name": "support.function.latex"}  
+        },
+        "contentName": "markup.raw.code.latex"
+    },
+    { 
+        "name": "markup.raw.code.latex",
+        "begin": "(?<!\\\\)\\|",
+        "end": "\\|"
+    },
+    {
+        "name": "meta.function.section.latex",
+        "match": "(\\\\(sub)*(chapter|section)){(.*)}",
+        "captures": {
+            "1": {"name": "support.function.latex"}
+        }            
+    },
+    {
+        "name": "support.function.latex",
+        "match": "\\\\[a-zA-Z]+(?:\\s|\\n?)?"
+    }
+  ]
+}
