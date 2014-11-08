@@ -28,13 +28,14 @@
         "begin": "\\\\\\(",
         "end": "\\\\\\)"
     },
-    {
+    {        
         "name": "meta.definition.emphasis.latex",
-        "match": "(\\\\emph){(.*)}",
-        "captures": {
-            "1": {"name": "support.function.latex"},
-            "2": {"name": "markup.italic.latex"}
-        }
+        "begin": "(\\\\emph){",
+        "end": "}",
+        "beginCaptures": {
+            "1": {"name": "support.function.latex"}
+        },
+        "contentName": "markup.italic.latex"
     },
     { 
         "name": "meta.definition.code.latex",
