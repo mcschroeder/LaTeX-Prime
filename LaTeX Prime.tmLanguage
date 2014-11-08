@@ -51,6 +51,25 @@
 			<string>markup.other.math.latex</string>
 		</dict>
 		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>support.function.latex</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>markup.italic.latex</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>(\\emph){(.*)}</string>
+			<key>name</key>
+			<string>meta.definition.emphasis.latex</string>
+		</dict>
+		<dict>
 			<key>begin</key>
 			<string>(\\begin){code}(\s*\n)?</string>
 			<key>beginCaptures</key>
