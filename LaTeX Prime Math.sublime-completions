@@ -1,0 +1,51 @@
+{
+	"scope": "markup.other.math.latex",
+	"completions": 
+		[ "\\alpha"
+		, "\\beta"
+		, "\\gamma"
+		, "\\delta"
+		, "\\epsilon"
+		, "\\varepsilon"
+		, "\\zeta"
+		, "\\eta"
+		, "\\theta"
+		, "\\vartheta"
+		, "\\iota"
+		, "\\kappa"
+		, "\\lambda"
+		, "\\mu"
+		, "\\nu"
+		, "\\xi"
+		, "\\pi"
+		, "\\rho"
+		, "\\sigma"
+		, "\\tau"
+		, "\\upsilon"
+		, "\\phi"
+		, "\\varphi"
+		, "\\chi"
+		, "\\psi"
+		, "\\omega"
+		, "\\digamma"
+		, "\\Gamma"
+		, "\\Delta"
+		, "\\Theta"
+		, "\\Lambda"
+		, "\\Xi"
+		, "\\Pi"
+		, "\\Sigma"
+		, "\\Phi"
+		, "\\Psi"
+		, "\\Omega"
+
+		, "\\rightarrow"
+		, "\\Rightarrow"
+		, { "trigger": "\\xrightarrow{}", "contents": "xrightarrow{$1}"}
+		, { "trigger": "\\xRightarrow{}", "contents": "xRightarrow{$1}"}
+		, "\\leftarrow"
+		, "\\Leftarrow"
+		, { "trigger": "\\xleftarrow{}", "contents": "xleftarrow{$1}"}
+		, { "trigger": "\\xLeftarrow{}", "contents": "xLeftarrow{$1}"}
+		]
+}

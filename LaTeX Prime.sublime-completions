@@ -1,0 +1,20 @@
+{
+	"scope": "text.tex.latex - markup",
+	"completions": 
+		[ { "trigger": "\\caption{}", "contents": "caption{$1}"}
+		, { "trigger": "\\chapter{}", "contents": "chapter{$1}"}
+		, { "trigger": "\\cite{}", "contents": "cite{$1}"}
+		, { "trigger": "\\begin{}", "contents": "begin{$1}"}
+		, { "trigger": "\\emph{}", "contents": "emph{$1}"}
+		, { "trigger": "\\end{}", "contents": "end{$1}"}
+		, { "trigger": "\\footnote{}", "contents": "footnote{$1}"}
+		, { "trigger": "\\include{}", "contents": "include{$1}"}
+		, { "trigger": "\\input{}", "contents": "input{$1}"}
+		, "\\item"
+		, { "trigger": "\\label{}", "contents": "label{$1}"}
+		, { "trigger": "\\parencite{}", "contents": "parencite{$1}"}
+		, { "trigger": "\\section{}", "contents": "section{$1}"}
+		, { "trigger": "\\subsection{}", "contents": "subsection{$1}"}
+		, { "trigger": "\\textcite{}", "contents": "textcite{$1}"}
+		]
+}

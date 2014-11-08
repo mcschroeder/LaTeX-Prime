@@ -2,5 +2,6 @@
 	"extensions": ["tex","lhs","sty"],
     "font_face": "Menlo",
     "font_size": 14,
-    "color_scheme": "Packages/LaTeX Prime/LaTeX Prime.tmTheme"
+    "color_scheme": "Packages/LaTeX Prime/LaTeX Prime.tmTheme",
+    "auto_complete_triggers": [ {"selector": "text.tex", "characters": "\\"} ]
 }
