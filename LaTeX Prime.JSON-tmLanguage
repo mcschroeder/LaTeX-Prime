@@ -6,7 +6,7 @@
   "patterns": [
     {
         "name": "comment.latex",
-        "match": "%.*$"
+        "match": "(?<!\\\\)%.*$"
     },
     { 
         "name": "markup.other.math.latex",
