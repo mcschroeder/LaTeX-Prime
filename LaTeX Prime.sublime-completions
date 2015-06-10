@@ -16,5 +16,6 @@
 		, { "trigger": "\\section{}", "contents": "section{$1}"}
 		, { "trigger": "\\subsection{}", "contents": "subsection{$1}"}
 		, { "trigger": "\\textcite{}", "contents": "textcite{$1}"}
+		, { "trigger": "\\paragraph{}", "contents": "paragraph{$1}"}
 		]
 }
