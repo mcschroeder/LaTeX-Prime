@@ -15,8 +15,8 @@
     },
     { 
         "name": "markup.other.math.latex",
-        "begin": "\\\\\\[",
-        "end": "\\\\\\]"
+        "begin": "(?<!\\\\)\\\\\\[",
+        "end": "(?<!\\\\)\\\\\\]"
     },
     { 
         "name": "markup.other.math.latex",
